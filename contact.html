@@ -29,24 +29,39 @@
         </div>
     </nav>
 
-    <div class="col-xs-12 col-sm-12 col-md-8 main-container">
-            <h1>About Me</h1>
-
-            <img src="assets/images/iceland1.jpg" class="img-responsive bio-image" alt="">
-            
-            <p>My name is Jason Schultz and I am a web developer and freelance photographer/videographer from Orlando, Florida.</p>
-
-            <p>In addition to my work, I enjoy homebrewing beer, attending sporting events (specifically ice hockey and soccer), playing music on guitar and ukulele, and traveling the world.</p>
-
-            <p>If you want to learn more about me feel free to check out my social media links. To see some of my work in web development click the Profile button in the menu bar at the top and if you want to get in contact with me, just fill out the form on the Contact page.</p>
-    </div>
-    <div class="col-xs-12 col-sm-12 col-md-4 sidebar">
-        <h2>Connect with Me</h2>
-
-                <img src="assets/images/linkedin.png" class="social" alt="LinkedIn">
-                <img src="assets/images/github.png" class="social" alt="github">
-                <img src="assets/images/instagram.png" class="social" alt="Instagram">
-    </div>
+    
+    <div class="container">
+            <div class="row">
+                    <div class="col-md-8 main-container">
+                        <div class="page-header">
+                          <h1>Contact</h1>
+                        </div>
         
+                        <form>
+                          <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Jane Doe">
+                          </div>
+                          <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="example@gmail.com">
+                          </div>
+                          <div class="form-group">
+                            <label for="textarea">Message</label>
+                            <textarea id="textarea" class="form-control" rows="10"></textarea>
+                          </div>
+                          <button type="submit" class="btn btn-default btn-lg">Submit</button>
+                        </form>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-4 sidebar">
+                        <h2>Connect with Me</h2>
+
+                        <img src="assets/images/linkedin.png" class="social" alt="LinkedIn">
+                        <img src="assets/images/github.png" class="social" alt="github">
+                        <img src="assets/images/instagram.png" class="social" alt="Instagram">
+                    </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

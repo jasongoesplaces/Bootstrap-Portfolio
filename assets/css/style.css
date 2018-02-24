@@ -14,7 +14,7 @@ body {
 
 .container {
     width: 100%;
-    max-width: 960px;
+    max-width: 1000px;
     margin: 0 auto;
     clear: both;
 }
@@ -93,7 +93,7 @@ h2, h3 {
     background-repeat: repeat;
 }
 
-h3, .sidebar, h2 {
+.sidebar, h2 {
     border-bottom: 2px solid #eee;
     padding-bottom: 20px;
     line-height: 22px;
@@ -154,7 +154,7 @@ input[type=text],
 input[type=email],
 textarea {
     display: block;
-    width: 100%;
+    width: 90%;
 }
 
 input[type=text],
